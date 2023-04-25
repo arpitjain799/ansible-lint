@@ -124,6 +124,7 @@ def mock_filter(left: Any, *args: Any, **kwargs: Any) -> Any:
     :param kwargs: The kwargs passed to the filter
     :return: The left hand side of the filter
     """
+    # pylint: disable=unused-argument
     return left
 
 
